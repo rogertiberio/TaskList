@@ -1,0 +1,12 @@
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\Vidalink.Tasklist.Repository.dll.config
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\Vidalink.Tasklist.Repository.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\Vidalink.Tasklist.Repository.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\EntityFramework.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\Vidalink.Tasklist.Model.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\Vidalink.Tasklist.Model.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\EntityFramework.xml
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\obj\Debug\Vidalink.Tasklist.Repository.csprojResolveAssemblyReference.cache
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\obj\Debug\Vidalink.Tasklist.Repository.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Repository\obj\Debug\Vidalink.Tasklist.Repository.pdb

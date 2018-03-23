@@ -1,0 +1,5 @@
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Model\bin\Debug\Vidalink.Tasklist.Model.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Model\bin\Debug\Vidalink.Tasklist.Model.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Model\obj\Debug\Vidalink.Tasklist.Model.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Model\obj\Debug\Vidalink.Tasklist.Model.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Model\obj\Debug\Vidalink.Tasklist.Model.csprojResolveAssemblyReference.cache

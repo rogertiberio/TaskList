@@ -1,0 +1,12 @@
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Services.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Services.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Model.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Repository.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\EntityFramework.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Model.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Repository.pdb
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\Vidalink.Tasklist.Repository.dll.config
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\bin\Debug\EntityFramework.xml
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\obj\Debug\Vidalink.Tasklist.Services.csprojResolveAssemblyReference.cache
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\obj\Debug\Vidalink.Tasklist.Services.dll
+C:\Users\roger.messina\Desktop\TaskList\TaskList\Vidalink.Tasklist.Services\obj\Debug\Vidalink.Tasklist.Services.pdb

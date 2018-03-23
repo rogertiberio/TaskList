@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Vidalink.Tasklist.Repository.Models.Task>
+
+@{
+    ViewBag.Title = "Listagem e pesquisa de tarefas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Incluir tarefa</h2>
+
+<p>
+    @Html.ActionLink("Criar uma nova tarefa", "Create")
+</p>
+
+<form class="form-horizontal" method="post" action="Find">
+
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="consulta">Pesquisa por:</label>
+        <div class="col-sm-3">            
+            <input type="text" class="form-control" name="consulta" placeholder="Digite aqui para pesquisar">            
+        </div>
+        <div class="col-sm-5">
+            <button type="submit" class="btn btn-default">Pesquisar</button>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <tr>
+        <th width="30%">
+            Título
+        </th>
+        <th width="30%">
+            Descrição
+        </th>
+        <th width="25%">
+            Data de execução
+        </th>
+        <th width="15%"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @(item.DataExecucao == null ? "" : ((DateTime)item.DataExecucao).ToString("dd/MM/yyyy"))
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.Id }) |            
+            @Html.ActionLink("Remover", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+

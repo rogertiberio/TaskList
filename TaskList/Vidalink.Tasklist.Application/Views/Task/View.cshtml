@@ -1,0 +1,58 @@
+﻿@model Vidalink.Tasklist.Repository.Models.Task
+
+@{
+    ViewBag.Title = "Editar tarefa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Editar tarefa</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">        
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Título</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Titulo, new { htmlAttributes = new { @class = "form-control disabled", disabled = "disabled" } })
+                @Html.ValidationMessageFor(model => model.Titulo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Descrição</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Descricao, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                @Html.ValidationMessageFor(model => model.Descricao, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">            
+            <label class="control-label col-md-2">Data de execução</label>
+            <div class="col-md-10">
+                @Html.TextBox("dataexecucao", (string)ViewBag.dataexecucao, new { @class = "form-control", @type = "datePicker", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.DataExecucao, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Salvar" class="btn btn-primary" disabled = "disabled" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
